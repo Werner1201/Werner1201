@@ -5,21 +5,10 @@
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:werner.romling@unigranrio.br)](mailto:werner.romling@unigranrio.br)
 
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
+<a href="https://github.com/Werner1201">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Werner1201&show_icons=true&theme=dark" />
 </a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Werner1201&layout=compac)" />
+<a href="https://github.com/Werner1201">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Werner1201&layout=compact&langs_count=10)" />
 </a>
 
-[![Github Stats](https://github-readme-stats.vercel.app/api?username=Werner1201&show_icons=true&theme=dark)](https://github.com/Werner1201)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Werner1201&langs_count=10)](https://github.com/anuraghazra/github-readme-stats)
-
-
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Werner1201&show_icons=true&theme=dark" />
-</a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Werner1201&langs_count=10)" />
-</a>
