@@ -51,10 +51,6 @@ def seletor():
         commando = shlex.split(
             command + "list=PLiZj_IL8ze6Vp8-5ZgKagH-LuPor6BPic")
         execute_mpv_command(commando)
-
-        # os.system(command + yturl +
-        #           "list=PLiZj_IL8ze6Vp8-5ZgKagH-LuPor6BPic")
-
         main()
 
     if escolha == 2:
