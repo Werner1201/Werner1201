@@ -13,19 +13,23 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Base metrics
+        uses: lowlighter/metrics@latest
         with:
-          # O GitHub fornece esse token automaticamente de forma segura no momento da execução
           token: ${{ secrets.GITHUB_TOKEN }}
-          
-          # Configurações do arquivo de saída
           filename: github-metrics.svg
           user: Werner1201
           template: classic
           base: header, activity, community, repositories
           config_timezone: America/Sao_Paulo
-          
-          # Plugin de Linguagens: mostrar as linguagens mais utilizadas
+
+      - name: Languages metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          filename: github-metrics-languages.svg
+          user: Werner1201
+          base: ""
           plugin_languages: yes
           plugin_languages_ignored: ""
           plugin_languages_limit: 8
