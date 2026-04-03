@@ -58,8 +58,7 @@ Aqui estão algumas das tecnologias e ferramentas com as quais tenho trabalhado 
 Abaixo você encontra as métricas dos meus repositórios geradas automaticamente, incluindo um gráfico indicando as linguagens com as quais eu mais contribuo aqui no GitHub!
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Werner1201&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Estatísticas do GitHub" height="192"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Werner1201&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8" alt="Linguagens Mais Utilizadas" height="192"/>
+  <img src="./github-metrics.svg" alt="Estatísticas do GitHub" />
 </p>
 
 <p align="center">

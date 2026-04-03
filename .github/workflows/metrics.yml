@@ -1,0 +1,33 @@
+name: Metrics
+on:
+  # Agendado para rodar uma vez por dia as 00:00
+  schedule: [{cron: "0 0 * * *"}]
+  # Permite que você clique em "Run Workflow" manualmente na aba Actions
+  workflow_dispatch:
+  # Aciona caso você faça push direto na branch principal
+  push: {branches: ["master", "main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # O GitHub fornece esse token automaticamente de forma segura no momento da execução
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+          # Configurações do arquivo de saída
+          filename: github-metrics.svg
+          user: Werner1201
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: America/Sao_Paulo
+          
+          # Plugin de Linguagens: mostrar as linguagens mais utilizadas
+          plugin_languages: yes
+          plugin_languages_ignored: ""
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
