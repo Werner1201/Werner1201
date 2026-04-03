@@ -1,7 +1,7 @@
 # Olá, eu sou o Werner! 👋 
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Desenvolvedor Salesforce;Entusiasta+de+Tecnologia;Sempre+Aprendendo" alt="Typing SVG" />
+  <img src="./typing.svg" alt="Typing SVG" />
 </div>
 
 <p align="center">
